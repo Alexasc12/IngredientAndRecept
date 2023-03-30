@@ -20,7 +20,7 @@ public class IngredientController {
     }
 
     @PostMapping()
-    public Ingredient addIngredient(@RequestBody Ingredient ingredient) {
+    public Ingredient addInngredient(@RequestBody Ingredient ingredient) {
         return ingredientService.postIngredient(ingredient);
     }
 
